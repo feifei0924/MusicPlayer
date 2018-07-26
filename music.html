@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> 音乐播放器 </title>
+        <link rel="stylesheet" href="music.css">
+    </head>
+    <body>
+        <div class="music-player">
+            <div class="player-list">
+                <button id="id-button-0" class="music-name" type="button" name="button">BY2-不够成熟</button>
+                <button id="id-button-1" class="music-name" type="button" name="button">로코베리(ROCOBERRY)-디저트송(甜点颂)</button>
+                <button id="id-button-2" class="music-name" type="button" name="button">张韶涵-淋雨一直走</button>
+                <button id="id-button-3" class="music-name" type="button" name="button">林依晨-你(吉他甜蜜版)</button>
+                <button id="id-button-4" class="music-name" type="button" name="button">林俊杰-醉赤壁</button>
+                <button id="id-button-5" class="music-name" type="button" name="button">阿肆-预谋邂逅</button>
+            </div>
+            <div class="play-panel">
+                <div class="player-view">
+                    <img src="src/picture/BY2-不够成熟.jpg" class="player-cover specialimg" alt="">
+                    <img src="src/picture/BY2-不够成熟.jpg" class="player-disk specialimg" alt="">
+                    <!-- <div class="player-cover specialimg"></div>
+                    <div class="player-disk specialimg"></div> -->
+                </div>
+                <div class="player-adjust">
+                    <div class="music-change">
+                        <button id="id-button-former" class="music-change-button">&lt;</button>
+                        <button id="id-button-pause" class="music-change-button">O</button>
+                        <button id="id-button-latter" class="music-change-button">&gt;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <audio id="id-audio-music" data-index="0" autoplay="autoplay" controls="controls" src="src/mp3/BY2-不够成熟.mp3"></audio>
+    </body>
+
+    <script src="base.js"></script>
+    <script src="music.js"></script>
+
+</html>
