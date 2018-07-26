@@ -1,0 +1,90 @@
+.player-list {
+    display: inline-block;
+    width: 320px;
+    height: 540px;
+    background: antiquewhite;
+    vertical-align: top;
+}
+
+.music-name {
+    width: 310px;
+    height: 60px;
+    margin: 5px auto;
+    background: #7892c2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: solid #4e6096 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.music-name:hover {
+  color: #ffffff;
+  background: #476e9e;
+  text-decoration: none;
+}
+
+.play-panel {
+    width: 640px;
+    height: 540px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.player-view {
+    position: relative;
+}
+
+.player-cover {
+    width: 640px;
+    height: 420px;
+    opacity:0.4;
+}
+
+.player-disk {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+}
+
+.player-adjust {
+    display: inline-block;
+    width: 640px;
+    height: 110px;
+    background: aliceblue;
+    margin: 5px 0px 0px 0px;
+    position: relative;
+}
+
+.music-change {
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    text-align: center;
+    left: 70px;
+}
+
+.music-change-button {
+    width: 100px;
+    height: 80px;
+    margin: 15px;
+    background: #c27878;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px 2px #f29f9f;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: solid #964e57 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.music-change-button:hover {
+    color: #ffffff;
+    background: #9e4747;
+    text-decoration: none;
+}
